@@ -13,7 +13,7 @@ from discord.ext import commands
 
 from core import Context
 from core.Cog import Cog
-from core.SB Moderation import SB Moderation
+from core.olympus import olympus
 from utils.Tools import *
 from utils.config import *
 
