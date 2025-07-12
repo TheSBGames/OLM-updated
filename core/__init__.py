@@ -1,3 +1,3 @@
-from .SB Moderation import SB Moderation
+from .olympus import olympus
 from .Context import Context
 from .Cog import Cog
