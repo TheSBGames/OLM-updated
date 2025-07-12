@@ -29,7 +29,7 @@ os.environ["JISHAKU_NO_UNDERSCORE"] = "True"
 os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
 
-client = SB Moderation()
+client = olympus()
 tree = client.tree
 TOKEN = os.getenv("TOKEN")
 
