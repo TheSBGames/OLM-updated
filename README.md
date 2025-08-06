@@ -114,4 +114,4 @@ Coming Soon
 
 ## Credits
 **Author:**  
-TheSBGames - *Head Developer* - **[GitHub](https://github.com/TheSBGame
+TheSBGames - *Head Developer* - **[GitHub](https://github.com/TheSBGames)
