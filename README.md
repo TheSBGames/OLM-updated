@@ -73,7 +73,7 @@ SB Moderation is a powerful, easy-to-use Discord bot designed to enhance your se
 
 1. First, clone the repository:  
    ```bash
-   git clone https://github.com/TheSBGames/OLM-updattes
+   git clone https://github.com/TheSBGames/OLM-update
    ```
 2. After cloning, run the bot:
    ```bash
@@ -92,7 +92,7 @@ SB Moderation is a powerful, easy-to-use Discord bot designed to enhance your se
    
 4. **For Music:**  
    A public Lavalink is used, get a list of more public lavalinks available [here](https://lavalinks-list.vercel.app/). For better audio quality, it is recommended to set up your private Lavalink v4.  
-   > Update your Lavalink URL, password, and other configurations [by clicking here](https://github.com/TheSBGames/SB OLM-updated/blob/main/cogs/commands/music.py#L339).
+   > Update your Lavalink URL, password, and other configurations [by clicking here](https://github.com/TheSBGames/OLM-updated/blob/main/cogs/commands/music.py#L339).
 - If you are using your private lavalink & have youtube plugin enabled/working but the Spotify plugin is not working, than you can Uncomment Lines `(445 - 452)` in `(cogs/commands/music.py)`, this will convert a Spotify track to YouTube Track.
 
 5. **Logging & Notifications:**  
@@ -114,11 +114,4 @@ Coming Soon
 
 ## Credits
 **Author:**  
-Sonu Jana - *Head Developer* - **[GitHub](https://github.com/sonujana26)**
-
-**Team:**
-<div align="center">
-  <a href="https://discord.com/invite/odx">
-    <img src="https://discordapp.com/api/guilds/699587669059174461/widget.png?style=banner2">
-  </a>
-</div>
+TheSBGames - *Head Developer* - **[GitHub](https://github.com/TheSBGame
