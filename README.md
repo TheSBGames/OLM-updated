@@ -73,7 +73,7 @@ SB Moderation is a powerful, easy-to-use Discord bot designed to enhance your se
 
 1. First, clone the repository:  
    ```bash
-   git clone https://github.com/sonujana26/SB Moderation-bot
+   git clone https://github.com/TheSBGames/OLM-updattes
    ```
 2. After cloning, run the bot:
    ```bash
@@ -85,19 +85,19 @@ SB Moderation is a powerful, easy-to-use Discord bot designed to enhance your se
    ```env
    TOKEN=YOUR_BOT_TOKEN_HERE
    ```
-   • Replace the Owner ID(s) [here](https://github.com/sonujana26/SB Moderation-bot/blob/main/utils/config.py#L7) (in `utils/config.py`).
+   • Replace the Owner ID(s) [here](https://github.com/TheSBGames/OLM-updated/blob/main/utils/config.py#L7) (in `utils/config.py`).
 2. **Prefix:**
    Default Prefix: `$`
-   > You can change prefix **[here](https://github.com/sonujana26/SB Moderation-bot/blob/main/utils/Tools.py#L84)**.
+   > You can change prefix **[here](https://github.com/TheSBGames/OLM-updated/blob/main/utils/Tools.py#L84)**.
    
 4. **For Music:**  
    A public Lavalink is used, get a list of more public lavalinks available [here](https://lavalinks-list.vercel.app/). For better audio quality, it is recommended to set up your private Lavalink v4.  
-   > Update your Lavalink URL, password, and other configurations [by clicking here](https://github.com/sonujana26/SB Moderation-bot/blob/main/cogs/commands/music.py#L339).
+   > Update your Lavalink URL, password, and other configurations [by clicking here](https://github.com/TheSBGames/SB OLM-updated/blob/main/cogs/commands/music.py#L339).
 - If you are using your private lavalink & have youtube plugin enabled/working but the Spotify plugin is not working, than you can Uncomment Lines `(445 - 452)` in `(cogs/commands/music.py)`, this will convert a Spotify track to YouTube Track.
 
 5. **Logging & Notifications:**  
-   - **Command Logs:** Get a channel webhook URL and update it [here](https://github.com/sonujana26/SB Moderation-bot/blob/main/main.py#L75) (in `main.py`).  
-   - **Guild Joins:** Add the channel ID [here](https://github.com/sonujana26/SB Moderation-bot/blob/main/cogs/events/on_guild.py#L25) (in `cogs/events/on_guild.py`).  
+   - **Command Logs:** Get a channel webhook URL and update it [here](https://github.com/TheSBGames/OLM-updated/blob/main/main.py#L75) (in `main.py`).  
+   - **Guild Joins:** Add the channel ID [here](https://github.com/TheSBGames/OLM-updated/blob/main/cogs/events/on_guild.py#L25) (in `cogs/events/on_guild.py`).  
    - **Guild Leaves:** Add the channel ID [here](https://github.com/sonujana26/SB Moderation-bot/blob/main/cogs/events/on_guild.py#L109) (in `cogs/events/on_guild.py`).
 
 6. **No Prefix Commands:**  
