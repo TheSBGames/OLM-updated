@@ -13,7 +13,7 @@ from discord.ext import commands
 
 from core import Context
 from core.Cog import Cog
-from core.olympus import olympus
+from core.Olympus import Olympus
 from utils.Tools import *
 from utils.config import *
 
@@ -29,7 +29,7 @@ os.environ["JISHAKU_NO_UNDERSCORE"] = "True"
 os.environ["JISHAKU_FORCE_PAGINATOR"] = "True"
 
 
-client = olympus()
+client = Olympus()
 tree = client.tree
 TOKEN = os.getenv("TOKEN")
 
@@ -40,7 +40,7 @@ TOKEN = os.getenv("TOKEN")
 async def on_ready():
     await client.wait_until_ready()
     
-    print(r"""
+    print("""
            \033[1;35m
 
         ____   ___  _   _ _   _ 
@@ -101,7 +101,7 @@ async def on_command_completion(context: commands.Context) -> None:
                     inline=False)
 
                 embed.timestamp = discord.utils.utcnow()
-                embed.set_footer(text="SB Moderation™ ❤️",
+                embed.set_footer(text="SB Moderation ❤️",
                                  icon_url=client.user.display_avatar.url)
 
                 
@@ -125,7 +125,7 @@ async def on_command_completion(context: commands.Context) -> None:
                     name="<:right:1244660443323306118> Command Executed By :",
                     value=f"{context.author} | ID: [{context.author.id}](https://discord.com/users/{context.author.id})",
                     inline=False)
-                embed1.set_footer(text=f"Powered by SB Moderation™",
+                embed1.set_footer(text=f"SB Moderation ™",
                                   icon_url=client.user.display_avatar.url)
                 print("Sending embed1 to webhook...")
                 await webhook.send(embed=embed1)
@@ -143,7 +143,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"© SB Moderation 2024"
+    return f"© Olympus Development 2024"
 
 
 def run():
