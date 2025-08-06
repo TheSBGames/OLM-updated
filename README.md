@@ -98,7 +98,7 @@ SB Moderation is a powerful, easy-to-use Discord bot designed to enhance your se
 5. **Logging & Notifications:**  
    - **Command Logs:** Get a channel webhook URL and update it [here](https://github.com/TheSBGames/OLM-updated/blob/main/main.py#L75) (in `main.py`).  
    - **Guild Joins:** Add the channel ID [here](https://github.com/TheSBGames/OLM-updated/blob/main/cogs/events/on_guild.py#L25) (in `cogs/events/on_guild.py`).  
-   - **Guild Leaves:** Add the channel ID [here](https://github.com/sonujana26/SB Moderation-bot/blob/main/cogs/events/on_guild.py#L109) (in `cogs/events/on_guild.py`).
+   - **Guild Leaves:** Add the channel ID [here](https://github.com/TheSBGames/OLM-updated/blob/main/cogs/events/on_guild.py#L109) (in `cogs/events/on_guild.py`).
 
 6. **No Prefix Commands:**  
    There are several `np` commands like `np add`, `np remove`, `auto np add`, `auto np remove`, `auto np role`, etc. Check and modify them as needed in `cogs/commands/np.py`.
