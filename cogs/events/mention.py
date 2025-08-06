@@ -55,9 +55,9 @@ class Mention(commands.Cog):
                 embed.set_footer(text="Powered by SB Moderation™", icon_url=self.bot.user.avatar.url)
 
                 buttons = [
-                    discord.ui.Button(label="Invite", style=discord.ButtonStyle.link, url="https://discord.com/oauth2/authorize?client_id=1144179659735572640&permissions=2113268958&scope=bot"),
-                    discord.ui.Button(label="Web", style=discord.ButtonStyle.link, url="https://olyumpus.vercel.app/"),
-                    discord.ui.Button(label="Support", style=discord.ButtonStyle.link, url="https://discord.com/invite/odx"),
+                    discord.ui.Button(label="Invite", style=discord.ButtonStyle.link, url=""),
+                    discord.ui.Button(label="Web", style=discord.ButtonStyle.link, url=""),
+                    discord.ui.Button(label="Support", style=discord.ButtonStyle.link, url=""),
                 ]
 
                 view = discord.ui.View()
